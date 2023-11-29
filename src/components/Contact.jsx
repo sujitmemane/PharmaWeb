@@ -9,7 +9,7 @@ import Textarea from "@mui/joy/Textarea";
 
 export default () => {
   return (
-    <main className="flex overflow-hidden">
+    <main className="flex overflow-hidden py-24"  id="contact">
       <div className="flex-1 hidden lg:block">
         <img
           src="https://cdn.sanity.io/images/eztzxh9q/production/50a870ea7970111ce831b44d8ebc14a3ec77c28a-2121x1414.jpg?w=3840&q=75&fit=clip&auto=format"

@@ -3,7 +3,7 @@ import { Main_Service_Data } from './data'
 
 const MainServices = () => {
   return (
-    <div className="px-4 lg:px-14  my-12 max-w-screen mx-auto">
+    <div className="px-4 lg:px-14   my-12 max-w-screen mx-auto" id='service'>
         <h1 className="text-center text-xl  text-brandPrimary font-bold uppercase tracking-tight">
         Our Services
       </h1>

@@ -4,7 +4,7 @@ import { Carousel } from "flowbite-react";
 
 export default () => {
   return (
-    <section className="py-14 my-24">
+    <section className="py-24 my-24 " id="testinomial">
       <div className="max-w-screen-xl mx-auto px-4 md:px-8">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-center text-xl  text-brandPrimary font-bold uppercase tracking-tight">

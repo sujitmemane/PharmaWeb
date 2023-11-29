@@ -4,7 +4,7 @@ import Slider1 from "../assets/slider1.jpg";
 
 const Hero = () => {
   return (
-    <div className="bg-neutralSilver">
+    <div className="bg-neutralSilver" id="home">
       <div className="px-4 lg:px-14 min-h-screen h-screen max-w-screen mx-auto">
         <Carousel className="w-full mx-auto">
           <div className="h-full my-28 px-4   md:my-8 flex flex-col md:flex-row-reverse items-center justify-between">

@@ -8,7 +8,6 @@ const Team = () => {
         Meet Our Specialist
       </h1>
       <p className="text-center text-2xl font-thin mb-8">
-        {" "}
         The Team Which Makes Everything Possible
       </p>
       <div>
