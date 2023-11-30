@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-scroll";
 import { FaBars } from "react-icons/fa";
 import { FaXmark } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const NAV_DATA = [
   {
@@ -18,11 +18,6 @@ const NAV_DATA = [
     id: 3,
     name: "About",
     path: "#about",
-  },
-  {
-    id: 4,
-    name: "Product",
-    path: "#product",
   },
   {
     id: 5,
@@ -72,9 +67,9 @@ const Navbar = () => {
       >
         <div className="flex justify-between items-center text-base gap-8">
           <a href="#" className="text-3xl font-medium text-brandPrimary">
-            cureskin
+            pharma
           </a>
-          <ul className="md:flex hidden space-x-12">
+          <ul className="md:flex items-center hidden space-x-12">
             {NAV_DATA.map(({ name, path, id }) => (
               <a
                 key={id}
@@ -84,6 +79,12 @@ const Navbar = () => {
                 {name}
               </a>
             ))}
+            <Link
+              className="block text-base text-white rounded hover:opacity-90 text-xl font-medium px-4 py-2 bg-brandPrimary cursor-pointer"
+              to="/products"
+            >
+              Products
+            </Link>
           </ul>
           <div className="md:hidden text-neutralDGray focus:outline-none focus:text-gray-500">
             <button onClick={toggleMenu}>

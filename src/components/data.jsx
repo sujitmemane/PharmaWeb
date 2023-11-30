@@ -166,3 +166,55 @@ export const Main_Service_Data =  [
 
 
 ]
+
+
+
+export const Products_Data =[ 
+    {
+        id:1,
+        img:"https://cdn01.pharmeasy.in/dam/products_otc/W97280/liveasy-wellness-glucose-c-orange-flavour-instant-energy-powder-450gm-2-1686220858.jpg?dim=700x0&dpr=1&q=100",
+        title:"Tablet",
+        price:"200"
+    },
+    {
+        id:2,
+        img:"https://cdn01.pharmeasy.in/dam/products_otc/276011/vansaar-karela-jamun-juice-controls-blood-sugar-levelno-added-sugarorganically-harvested-1l-1-1699596082.jpg?dim=700x0&dpr=1&q=100",
+        title:"Tablet",
+        price:"200"
+    },
+    {
+        id:3,
+        img:"https://cdn01.pharmeasy.in/dam/products_otc/H82654/vansaar-45-diab-balance-juice-bottle-of-1-ltr-2-1698925291.jpg?dim=700x0&dpr=1&q=100",
+        title:"Tablet",
+        price:"200"
+    },
+    {
+        id:4,
+        img:"https://cdn01.pharmeasy.in/dam/products_otc/E30239/amrutanjan-strong-pain-relief-balm-bottle-of-50-ml-2-1654169570.jpg?dim=700x0&dpr=1&q=100",
+        title:"Tablet",
+        price:"200"
+    },
+    {
+        id:5,
+        img:"https://cdn01.pharmeasy.in/dam/products_otc/I40296/amrutanjan-maha-strong-pain-relief-balm-bottle-of-8-ml-2-1669710973.jpg?dim=700x0&dpr=1&q=100",
+        title:"Tablet",
+        price:"200"
+    },{
+        id:6,
+        img:"https://cdn01.pharmeasy.in/dam/products_otc/183157/volini-pain-relief-gel-tube-of-75-g-2-1671740956.jpg?dim=700x0&dpr=1&q=100",
+        title:"Tablet",
+        price:"200"
+    },
+    {
+        id:7,
+        img:"https://cdn01.pharmeasy.in/dam/products_otc/082015/himalaya-gasex-tablets-100s-2-1671741707.jpg?dim=700x0&dpr=1&q=100",
+        title:"Tablet",
+        price:"200"
+    },
+    {
+        id:8,
+        img:"https://cdn01.pharmeasy.in/dam/products_otc/183151/volini-pain-relief-gel-tube-of-50-g-2-1671740957.jpg?dim=700x0&dpr=1&q=100",
+        title:"Tablet",
+        price:"200"
+    },
+]
