@@ -110,6 +110,12 @@ const Navbar = () => {
               {name}
             </a>
           ))}
+          <Link
+            className="block text-base text-gray-900 font-medium text-white hover:text-black  transform-900 cursor-pointer"
+            to="/products"
+          >
+            Products
+          </Link>
         </div>
       </nav>
     </header>
